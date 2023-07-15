@@ -1,1 +1,27 @@
-/* -------------Nav Related Styles----------- */
+  /* ---------Work Sans Font From google------------ */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+  * {
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+  }
+
+  /* -------------Nav Related Styles----------- */
+  nav {
+            display: flex;
+            align-items: ;
+  }
+
+  ul a {
+
+            text-decoration: none;
+  }
+
+  ul {
+            list-style: none;
+            display: flex;
+  }
+
+  .nav-title {
+            /* text-align: ce nter; */
+  }
