@@ -6,6 +6,10 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
   }
+  /* ----------------Shared Styles--------------- */
+  .btn-primary{
+    
+  }
 
   /* -------------Nav Related Styles----------- */
 
@@ -43,12 +47,21 @@
   header {
     background-color: rgba(255, 144, 14, 0.10);
   }
-  .banner-title{
+
+  .banner-title {
     color: #131313;
-font-size: 4rem;
-font-weight: 700;
+    font-size: 4rem;
+    font-weight: 700;
   }
-     .banner-content{
-      max-width: 800px;
-      margin: 0 auto;
-     }
+
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
