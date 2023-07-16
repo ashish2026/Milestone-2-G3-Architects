@@ -6,9 +6,20 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
   }
+
   /* ----------------Shared Styles--------------- */
-  .btn-primary{
-    
+  .btn-primary {
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    display: flex;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    margin: auto;
   }
 
   /* -------------Nav Related Styles----------- */
@@ -46,6 +57,13 @@
 
   header {
     background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+
+  .img-banner {
+    display: block;
+    margin: auto;
+    width: 100%;
   }
 
   .banner-title {
@@ -64,4 +82,29 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+  }
+
+  /* ----------------Responsive Media Query---------------- */
+  /* --------------------Mobile Device  ---------------------- */
+  @media screen and (max-width: 576px) {
+    header {
+      padding: 20px;
+
+    }
+
+    nav {
+      flex-direction: column;
+    }
+
+  }
+  /* ---------------------Tablet or Medium Device----------------- */
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+      flex-direction: column;
+    }
+    header {
+      padding: 40px;
+
+    }
+
   }
