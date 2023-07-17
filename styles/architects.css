@@ -22,6 +22,10 @@
     margin: auto;
   }
 
+  .team-description {
+    color: #727272;
+  }
+
   /* -------------Nav Related Styles----------- */
 
   nav {
@@ -60,6 +64,14 @@
     padding: 50px 240px;
   }
 
+  /* -----Main Styles---- */
+
+  main {
+
+    max-width: 1440px;
+    margin: 70px auto;
+  }
+
   .img-banner {
     display: block;
     margin: auto;
@@ -84,37 +96,7 @@
     line-height: 26px;
   }
 
-  /* ------------------------------Responsive Media Query-------------------------- */
 
-
-
-
-
-  /* --------------------Mobile Device  ---------------------- */
-  @media screen and (max-width: 576px) {
-    header {
-      padding: 20px;
-
-    }
-
-    nav {
-      flex-direction: column;
-    }
-
-  }
-
-  /* ---------------------Tablet or Medium Device----------------- */
-  @media screen and (min-width: 576px) and (max-width: 960px) {
-    nav {
-      flex-direction: column;
-    }
-
-    header {
-      padding: 40px;
-
-    }
-
-  }
 
   /* ---------------------Teams Styles------------------ */
   .team-container {
@@ -155,5 +137,47 @@
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
+
+  }
+
+
+
+  /* ------------------------------Responsive Media Query---------------------------------- */
+
+
+
+
+
+
+  /* --------------------Mobile Device  ---------------------- */
+  @media screen and (max-width: 576px) {
+    header {
+      padding: 20px;
+
+    }
+
+    nav,
+    .team-container {
+      flex-direction: column;
+    }
+.team-img-container{
+  grid-template-columns: repeat(1, 1fr);
+}
+.team-content {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+  }
+
+  /* ---------------------Tablet or Medium Device----------------- */
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+      flex-direction: column;
+    }
+
+    header {
+      padding: 40px;
+
+    }
 
   }
